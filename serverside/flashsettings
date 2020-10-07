@@ -1,0 +1,8 @@
+./esptool.py --port /dev/ttyS5 --baud 115200 write_flash --flash_freq 80m --flash_mode dio --flash_size 4MB 0x0000 espruino_2v06_esp8266_4mb_combined_4096
+
+ip: 192.168.1.11
+
+
+frekvens0: 192.168.1.9
+frekvens1: 192.168.1.10
+

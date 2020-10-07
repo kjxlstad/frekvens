@@ -1,0 +1,99 @@
+body {
+  	margin: 0;
+  	background: #E5E5E5;
+	text-align: center;
+}
+
+.matrix {	
+	background-color: #0D0D0D;
+	width: 35vw;
+	height: 35vw;	
+	max-width: 500px;
+	max-height: 500px
+}
+
+.input {
+	width: 70vw;
+	height: 35vw;
+	max-width: 1000px;
+	max-height: 350px;
+}
+
+h1 {
+	color: black;
+	font-family: monospace;
+	font-size: 2.5rem;
+	margin: 0.5rem;
+}
+
+.section {
+	position: relative;
+	width: 100%;
+}
+
+.textbox {
+	text-align: left;	
+	font-size: 1.2rem;
+	font-family: Monospace;
+	color: white;
+	font-weight: Bold;
+	padding: 2%;
+}
+
+#code {
+	background-color: #0D0D0D;
+	height: 90%;	
+	outline: none;
+	resize: none;
+	border: none;
+}
+
+#error-output {
+	background-color: #0D0D0D;
+	width: 96%;
+	height: 2%;
+	margin: 0;
+}
+
+.flexbox-vertical {
+  	display: flex;
+  	flex-direction: column;
+  	text-align: center;
+	height: 100vh;
+	width: 70vw;
+	margin: auto;
+	max-width: 1000px;	
+}
+
+.flat-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.flexbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.space {
+	justify-content: space-between;
+}
+
+.box {
+	border: 20px solid #FAB413;
+	padding: 2vw;
+	height: 20vw;
+	max-height: 300px;
+	margin: auto;
+}
+
+.left {
+	border-right: none;
+	border-radius: 40px 0px 0px 40px;
+}
+
+.right {
+	border-left: none;
+	border-radius: 0px 40px 40px 0px;
+}
